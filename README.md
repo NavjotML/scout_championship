@@ -2,7 +2,7 @@
 
 A statistical replacement-finder for EFL Championship centre-backs. Given a
 target player, a budget, and a target age, the tool returns a ranked
-shortlist of the closest statistical matches — combining tactical style
+shortlist of the closest statistical matches combining tactical style
 similarity, budget fit, and age fit into one transparent, explainable score.
 
 Built as part of a larger Recruitment Recommendation System project
