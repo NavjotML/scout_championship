@@ -6,7 +6,7 @@ from config import COUNT_FEATURES, RATE_FEATURES
 
 @st.cache_data
 def load_data(min_minutes=900):
-    df = pd.read_excel("Book1.xlsx")
+    df = pd.read_csv("cb_clustered_v2.csv")
     df = df[df["Minutes played"] >= min_minutes].reset_index(drop=True).copy()
 
     per90 = df["Minutes played"] / 90

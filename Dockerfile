@@ -11,7 +11,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY app.py .
-COPY Book1.xlsx .
+COPY cb_clustered_v2.csv . 
 
 EXPOSE 8501
 
